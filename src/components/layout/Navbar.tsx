@@ -50,9 +50,14 @@ export default function Navbar() {
             <div className="w-8 h-8 rounded-full bg-gradient-to-br from-orange-500 to-green-600 text-white flex items-center justify-center font-bold text-sm tracking-tighter shadow-lg shadow-orange-500/20">
               N
             </div>
-            <span className="font-bold text-lg tracking-tight gradient-text">
-              Nomshu
-            </span>
+            <div>
+              <span className="block font-bold text-base leading-none tracking-tight gradient-text">
+                Nomshu
+              </span>
+              <span className="block text-[8px] uppercase font-bold text-gray-500 tracking-widest leading-none mt-0.5">
+                Driving School
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Nav */}
